@@ -214,6 +214,14 @@ FastAPI_template % tree -L 2
 
 - `pyproject.toml`ファイル(Node で言うところの`package.json`)を確認してください。
 
+## ライブラリの追加方法
+
+- `package-name`の箇所を追加したいライブラリ名に変更して、実行する。
+
+```bash
+docker-compose exec demo-app poetry add package-name
+```
+
 ## 【参考・引用】
 
 1. [FastAPI 入門](https://zenn.dev/sh0nk/books/537bb028709ab9)
